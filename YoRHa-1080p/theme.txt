@@ -1,0 +1,72 @@
+title-text: ""
+title-color: "#dad5bd"
+title-font: "Comfortaa Bold 24"
+desktop-image: "background.png"
+terminal-font: "Comfortaa Bold 16"
+terminal-left: "0%"
+terminal-top: "0%"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ label {
+    left = 5%
+    top = 5%
+    height = 50
+    width = 10%
+    font = "Comfortaa Bold 36"
+    color = "#dad5bd"
+    align = "left"
+    text = "L O A D I N G"
+}
+
++ label {
+    left = 18%
+    top = 70
+    height = 50
+    width = 10%
+    font = "Comfortaa Bold 24"
+    color = "#dad5bd"
+    align = "left"
+    text = "- BOOTING SYSTEM . . ."
+}
+
++ boot_menu {
+    menu_pixmap_style = "boot_menu_*.png"
+    left = 5%
+    width = 50%
+    top = 13%
+    height = 90%
+    item_font = "Comfortaa Bold 18"
+    item_color = "#928F7F"
+    selected_item_font = "Comfortaa Bold 18"
+    selected_item_color = "#dad5bd"
+    item_height = 50
+    item_padding = 20
+    item_spacing = 10
+    scrollbar_width = 10
+    scrollbar_thumb = "slider_*.png"
+}
+
++ label {
+    left = 3%
+    top = 95%
+    height = 25
+    width = 600  
+    font = "Comfortaa Bold 18"
+    color = "#dad5bd"
+    align = "left"  
+    text = "@KEYMAP_SHORT@"
+}
+
++ progress_bar {
+    id = "__timeout__"
+    left = 0%
+    width = 100%
+    top = 100%
+    height = 20
+    text = "%d seconds left"
+    text_color = "#dad5bd"
+    font = "Comfortaa Bold 18"
+    bar_style = "progress_bar_*.png"
+    highlight_style = "progress_highlight_*.png"
+}
