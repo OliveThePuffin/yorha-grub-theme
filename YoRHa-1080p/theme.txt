@@ -40,7 +40,7 @@ terminal-height: "100%"
     item_color = "#928F7F"
     selected_item_font = "Comfortaa Bold 18"
     selected_item_color = "#dad5bd"
-    item_height = 50
+    item_height = 25
     item_padding = 20
     item_spacing = 10
     scrollbar_width = 10
