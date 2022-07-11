@@ -21,10 +21,10 @@ terminal-height: "100%"
 
 + label {
     left = 18%
-    top = 105
+    top = 94
     height = 50
     width = 10%
-    font = "Comfortaa Bold 36"
+    font = "Comfortaa Bold 32"
     color = "#dad5bd"
     align = "left"
     text = "- BOOTING SYSTEM . . ."
