@@ -2,18 +2,23 @@
 
 ![Alt text](preview.png?raw=true "Preview")
 
-There are 2 folders for resolution, 4k and 1080p.
+### There are different folders for different screen resolutions.
+ - 4k (3840 x 2160)
+ - 2k (2560 x 1440)
+ - 1k (1920 x 1080)
 
-Basically to install, just copy the folder you need to `/boot/grub/themes/` and edit your `/etc/default/grub` file to include
+## To install:
 
+### Step 1
+Find your monitor's resolution and copy the corresponding folder to `/boot/grub/themes`
+
+### Step 2
+Edit your `/etc/default/grub` file to include
+
+`GRUB_THEME="/boot/grub/themes/ *folder you copied* /theme.txt"`
+
+**For example:**
 `GRUB_THEME="/boot/grub/themes/YoRHa-4k/theme.txt"`
 
-or
-
-`GRUB_THEME="/boot/grub/themes/YoRHa-1080p/theme.txt"`
-
-depending on which folder you copied
-
-There should already be a commented example somewhere in the file
-
-After that, finalize your changes with `sudo update-grub`
+### Step 3
+Finalize your changes with `sudo update-grub`
